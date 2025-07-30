@@ -1,0 +1,77 @@
+.background {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+body {
+    margin-left: 15px;
+    font-size: 19px;
+    background-color: rgb(219, 219, 219)
+}
+button {
+    font-size: 19px;
+    padding: 8px 15px;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.22);
+    
+}
+#buttonGallery{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.polaroid {
+  width: 320px;
+  background: rgb(243, 243, 243);
+  padding: 20px 40px 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  margin: 0 auto;
+}
+
+.polaroid img {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.polaroid p {
+  font-size: 19px;
+  color: #000000;
+  margin: 0;
+  text-align: justify;
+}
+
+.buttonAlign{
+    display: flex;
+    justify-content: flex-end;
+}
+a {
+    color: #030303;
+   
+}
+footer {
+  background-color:rgb(219, 219, 219);
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.boldText {
+    font-weight: bold;
+    font-size: 23px;
+}
